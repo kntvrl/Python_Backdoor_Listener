@@ -69,5 +69,5 @@ class MySocket():
         self.myConnection.close()
 
 
-mySocket = MySocket("10.58.10.78", 8080)
+mySocket = MySocket("10.0.1.15", 8080)
 mySocket.startSocket()
