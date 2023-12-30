@@ -15,7 +15,7 @@ class SocketListener():
     def saveFile(self, path, content):
         with open(path, "wb") as myFile:
             myFile.write(base64.b64decode(content))
-            return "Download OK"
+            return "Download OK!"
 
     def getFileContents(self,path):# upload işlemi için
         with open(path,"rb") as MyFile:
